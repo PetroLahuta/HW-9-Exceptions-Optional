@@ -3,8 +3,9 @@ package main.java.com.lahuta.division;
 import java.util.Scanner;
 
 public class SafeDivision {
-    public void resultsOfdivision() {
-        Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner = new Scanner(System.in);
+
+    public void printDivision() {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 

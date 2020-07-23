@@ -15,7 +15,7 @@ public class Executor {
         demonstrateExceptions.showIOException();
 
         SafeDivision safeDivision = new SafeDivision();
-        safeDivision.resultsOfdivision();
+        safeDivision.printDivision();
 
         RethrowingExceptions rethrowingExceptions = new RethrowingExceptions();
         try {
